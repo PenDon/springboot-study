@@ -27,7 +27,24 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- 数据库配置 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
 	</dependencies>
+
+<!--	<bean id="dataSource" class="org.springframework.jdbc.dataSource.DriverManagerDataSource">-->
+<!--		<property name="driverClassName" value="com.mysql.jdbc.Driver" />-->
+<!--		<property name="url" value="jdbc:mysql://localhost:3306/demo" />-->
+<!--		<property name="username" value="root" />-->
+<!--		<property name="password" value="root" />-->
+
+<!--	</bean>-->
 
 	<build>
 		<plugins>
